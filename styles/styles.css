@@ -54,3 +54,11 @@ h3 {
 td {
     color: var(--brandy-red);
 }
+
+main {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    width: 46rem;
+    margin: 7.7rem auto;
+}
