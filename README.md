@@ -19,12 +19,14 @@ It is my second challange (newbie level) from Frontend Mentor. I will be buildin
 
 ### Screenshot
 
-![screenshot_desktop](./images/screenshot_desktop.png)
+--In progress--
 
 ### Links
 
-- Solution URL: [GitHub]()
-- Live Site URL: [GitHub Pages]()
+--In progress--
+
+- Solution URL: 
+- Live Site URL: 
 
 ## My process
 
