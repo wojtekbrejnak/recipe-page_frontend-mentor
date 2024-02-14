@@ -30,6 +30,11 @@ body {
     color: var(--wenga-brown);
 }
 
+img {
+    max-height: 18.75rem;
+    border-radius: 0.75rem;
+}
+
 h1, h2 {
     font-family: young-serif, Georgia, 'Times New Roman', Times, serif;
 }
