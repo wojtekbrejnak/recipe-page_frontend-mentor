@@ -8,6 +8,16 @@ font-family: 'young-serif';
 src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
 }
 
+:root {
+    --dark-charcoal: #312E2C;
+    --dark-raspberry: #7A284E;
+    --brandy-red: #854632;
+    --wenga-brown: #5F564D;
+    --eggshell: #F3E5D7;
+    --white-coffee: #E3DDD7;
+    --snow: #FFF7FB;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,8 +26,26 @@ src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype'
 
 body {
     font-family: outfit, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--eggshell);
+    color: var(--wenga-brown);
 }
 
 h1, h2 {
     font-family: young-serif, Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: var(--dark-charcoal)
+}
+
+h2 {
+    color: var(--brandy-red);
+}
+
+h3 {
+    color: var(--dark-raspberry);
+}
+
+td {
+    color: var(--brandy-red);
 }
