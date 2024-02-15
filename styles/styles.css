@@ -16,6 +16,8 @@ src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype'
     --eggshell: #F3E5D7;
     --white-coffee: #E3DDD7;
     --snow: #FFF7FB;
+    --page-padding-inline: 2.5rem;
+    --page-padding-block: 1.8rem;
 }
 
 * {
@@ -32,26 +34,43 @@ body {
 
 main {
     background-color: white;
-    padding: 2.5rem;
     border-radius: 1.5rem;
-    width: 46rem;
+    max-width: 46rem;
     margin: 7.7rem auto;
-    display: grid;
-    gap: 2rem;
 }
 
 hr {
     border: 1px solid var(--white-coffee);
+    margin-inline: var(--page-padding-inline);
+}
+
+header > * {
+    padding-inline: var(--page-padding-inline);
+    padding-top: var(--page-padding-inline);
+}
+
+header .text {
+    padding-bottom: var(--page-padding-block);
+}
+
+section {
+    padding-inline: var(--page-padding-inline);
+    padding-block: var(--page-padding-block);
+}
+
+section:has(.prep-time) {
+    padding-block: 0;
 }
 
 img {
-    max-height: 18.75rem;
+    max-width: 100%;
     border-radius: 0.75rem;
 }
 
 h1, h2 {
     font-family: young-serif, Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
+    padding-bottom: 1rem;
 }
 
 h1 {
@@ -61,20 +80,21 @@ h1 {
 
 h2 {
     color: var(--brandy-red);
+    font-size: 1.8rem;
+}
+
+h2 + p {
+    padding-bottom: 0.5rem;
 }
 
 h3 {
     color: var(--dark-raspberry);
     font-weight: 700;
+    padding-bottom: 0.5rem;
 }
 
 .bold-text {
     font-weight: 600;
-}
-
-header, section {
-    display: grid;
-    gap: 1rem;
 }
 
 .prep-time {
@@ -134,4 +154,18 @@ th {
 td {
     color: var(--brandy-red);
     font-weight: bold;
+}
+
+@media screen and (max-width: 736px) {
+    header .image {
+        padding: 0rem;
+    }
+
+    img, main {
+        border-radius: 0;
+    }
+
+    main {
+        margin: 0;
+    }
 }
