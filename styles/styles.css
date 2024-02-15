@@ -51,16 +51,29 @@ h3 {
     color: var(--dark-raspberry);
 }
 
-td {
-    color: var(--brandy-red);
-}
-
 main {
     background-color: white;
     padding: 2.5rem;
     border-radius: 1.5rem;
     width: 46rem;
     margin: 7.7rem auto;
+}
+
+ul, ol {
+    list-style-position: inside;
+    padding-left: 0.5rem;
+}
+
+ol li::marker, h2+ul li::marker {
+    color: var(--brandy-red);
+}
+
+h3+ul li::marker {
+    color: var(--dark-raspberry);
+}
+
+ol li::marker {
+    font-weight: bold;
 }
 
 table {
@@ -88,5 +101,6 @@ th {
 }
 
 td {
+    color: var(--brandy-red);
     font-weight: bold;
 }
