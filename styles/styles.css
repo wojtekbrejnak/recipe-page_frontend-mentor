@@ -61,6 +61,12 @@ h3 {
     color: var(--dark-raspberry);
 }
 
+.prep-time {
+    background-color: var(--snow);
+    border-radius: 0.75rem;
+    padding: 2rem;
+}
+
 ul, ol {
     list-style-position: inside;
     padding-left: 0.5rem;
