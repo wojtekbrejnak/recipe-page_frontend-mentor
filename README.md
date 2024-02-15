@@ -1,6 +1,6 @@
 # Frontend Mentor - Recipe page solution
 
-This is a solution to the [Frontend Mentor Recipe page challenge](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Frontend Mentor Recipe page challenge](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -15,25 +15,27 @@ This is a solution to the [Frontend Mentor Recipe page challenge](https://www.fr
 - [Author](#author)
 
 ## Overview
-It is my second challange (newbie level) from Frontend Mentor. I will be building simple Recipe page based on provided Figma design files. This project will be build using HTML and CSS only.
+It is my second challange (newbie level) from Frontend Mentor. As a newcomer, I embraced the task of creating a Recipe page based on meticulously crafted Figma design file. My journey involved translating visual concepts into functional code, ensuring pixel-perfect alignment.
 
 ### Screenshot
 
---In progress--
+![screenshot_desktop](./assets/images/screenshot_desktop.png)
+![screenshot_mobile](./assets/images/screenshot_mobile.png)
 
 ### Links
 
---In progress--
-
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: [GitHub](https://github.com/wojtekbrejnak/recipe-page_frontend-mentor)
+- Live Site URL: [GitHub Pages](https://wojtekbrejnak.github.io/recipe-page_frontend-mentor)
 
 ## My process
 
 - Project Planning: I started by reading the requerments on `Challange Hub` and downloading starter files and design Files.
 - Setting Up Environment: I prefer using VS Code and it was everything I needed in this newbie project. 
-
---In progress--
+- HTML Structure: I began by creating the basic HTML structure for my project. This included setting up the main HTML file, organizing elements, and creating semantic tags.
+- CSS Styling: I used CSS to style my project. This involved creating layouts, applying colors, fonts.
+- Figma Workflow: I used Figma design files to build more accurate solution (fonts, colors etc.).
+- Version Control: I used Git for version control. It's my first Front-end mentor project and I made mistake by commiting completed project. 
+- Documentation: Documenting everything is crucial when working as Developer so I created this file with great attention hoping that it will be helpful for future reference and sharing with others.
 
 ### Built with
 
@@ -42,7 +44,7 @@ It is my second challange (newbie level) from Frontend Mentor. I will be buildin
 
 ### What I learned
 
---In progress--
+I acquired proficiency in the fundamentals of HTML, CSS, and working with Figma files. This knowledge has been invaluable for my project development.
 
 ### Continued development
 
