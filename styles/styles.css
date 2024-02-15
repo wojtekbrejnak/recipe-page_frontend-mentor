@@ -47,10 +47,12 @@ img {
 
 h1, h2 {
     font-family: young-serif, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 250;
 }
 
 h1 {
-    color: var(--dark-charcoal)
+    color: var(--dark-charcoal);
+    font-size: 2.5rem;
 }
 
 h2 {
@@ -59,6 +61,11 @@ h2 {
 
 h3 {
     color: var(--dark-raspberry);
+    font-weight: 600;
+}
+
+.bold-text {
+    font-weight: bold;
 }
 
 .prep-time {
