@@ -65,11 +65,20 @@ h3 {
     background-color: var(--snow);
     border-radius: 0.75rem;
     padding: 2rem;
+    display: grid;
+    gap: 1rem;
 }
 
 ul, ol {
-    list-style-position: inside;
-    padding-left: 0.5rem;
+    /* list-style-position: inside; 
+    Remember that if you want to change a space size between bullet points/numbers and text in lists, you can use padding-left to achieve this but the list-style-position must be default (outside) and it will not work when the value will be set to inside.*/
+    padding-left: 1.5rem;
+}
+
+li {
+  padding-left: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 ol li::marker, h2+ul li::marker {
