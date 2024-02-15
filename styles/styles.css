@@ -51,7 +51,7 @@ img {
 
 h1, h2 {
     font-family: young-serif, Georgia, 'Times New Roman', Times, serif;
-    font-weight: 250;
+    font-weight: 400;
 }
 
 h1 {
@@ -65,11 +65,11 @@ h2 {
 
 h3 {
     color: var(--dark-raspberry);
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .bold-text {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 header, section {
