@@ -37,7 +37,7 @@ main {
     width: 46rem;
     margin: 7.7rem auto;
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 hr {
@@ -72,12 +72,15 @@ h3 {
     font-weight: bold;
 }
 
+header, section {
+    display: grid;
+    gap: 1rem;
+}
+
 .prep-time {
     background-color: var(--snow);
     border-radius: 0.75rem;
     padding: 2rem;
-    display: grid;
-    gap: 1rem;
 }
 
 ul, ol {
