@@ -62,3 +62,31 @@ main {
     width: 46rem;
     margin: 7.7rem auto;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding-block: 0.9rem;
+}
+
+tr {
+    border-bottom: 1px solid var(--white-coffee);
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+th {
+    font-weight: unset;
+    padding-left: 2rem;
+    width: 51%;
+}
+
+td {
+    font-weight: bold;
+}
