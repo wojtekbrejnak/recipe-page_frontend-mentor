@@ -40,6 +40,10 @@ main {
     gap: 1rem;
 }
 
+hr {
+    border: 1px solid var(--white-coffee);
+}
+
 img {
     max-height: 18.75rem;
     border-radius: 0.75rem;
